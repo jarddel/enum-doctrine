@@ -1,0 +1,35 @@
+{
+    "name": "robusto/enum-type",
+    "type": "library",
+    "description": "A PHP 7.0+ Robust enumeration library for Doctrine Types.",
+    "keywords": ["enum","enumerative", "type", "dbal", "doctrine"],
+    "homepage": "https://github.com/jarddel/enum-type",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jarddel Antunes",
+            "email": "jarddel@hotmail.com",
+            "homepage": "http://www.jarddel.com",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit" : "^5.5",
+        "squizlabs/php_codesniffer" : "2.7.1",
+        "robusto/enum" : "2.0",
+        "doctrine/dbal" : "~2.5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Robusto\\EnumType\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Robusto\\EnumType\\Tests\\": "tests"
+        }
+    }
+}
